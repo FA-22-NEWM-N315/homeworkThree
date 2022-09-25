@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../css/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../css/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../css/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../css/fonts/Montserrat/static/Montserrat-Light.ttf);
+}
+.banner {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.banner .logo {
+  position: absolute;
+  height: 60px;
+  width: 120px;
+  margin-left: 206px;
+  margin-top: 6px;
+  background-image: url(../images/etsy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .search {
+  margin-left: 340px;
+}
+.banner .search input {
+  width: 1090px;
+  height: 50px;
+  margin-top: 6px;
+  border-radius: 28px;
+  border-color: #000;
+  background-color: rgb(246, 246, 246);
+  font-family: Montserrat;
+  font-size: 16px;
+  padding: 16px;
+}
+.banner .search .iconOne {
+  font-size: 20px;
+  margin-top: -34px;
+  margin-left: 1040px;
+}
+.banner .sign-in {
+  position: absolute;
+  font-size: 8px;
+  font-family: Montserrat;
+  margin-left: 1460px;
+  margin-top: 22px;
+}
+.banner .cart {
+  position: absolute;
+  margin-left: 1540px;
+  margin-top: 24px;
+}
+
+nav {
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 100px;
+}
+nav a {
+  font-family: Montserrat;
+  color: #000;
+  font-size: 12.5px;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 180px;
+  background-color: #f8eae6;
+  position: absolute;
+}
+.hero .hero-tag {
+  position: relative;
+  height: 40px;
+  width: 480px;
+  margin: 0 auto;
+  top: 20px;
+}
+.hero .hero-tag h1 {
+  font-family: Montserrat-Light;
+}
+.hero .pic-wrapper {
+  position: relative;
+  width: 1200px;
+  height: 140px;
+  margin: 0 auto;
+  top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.hero .pic-wrapper .picOne {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images/pumpkins.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .pic-wrapper .picTwo {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images/shirt.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .pic-wrapper .picThree {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images/halloween.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .pic-wrapper .picFour {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images//jewelry.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .pic-wrapper .picFive {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images/candle.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .pic-wrapper .picSix {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: blue;
+  background-image: url(../images/sale.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .tags {
+  position: relative;
+  height: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.hero .tags .tag1 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+}
+.hero .tags .tag2 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+  margin-left: 50px;
+}
+.hero .tags .tag3 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+}
+.hero .tags .tag4 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+  position: relative;
+  left: -10px;
+}
+.hero .tags .tag5 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+  position: relative;
+  left: 10px;
+}
+.hero .tags .tag6 {
+  height: 20px;
+  width: 140px;
+  background-color: #fff;
+  position: relative;
+  left: 34px;
+}
+.hero .tags a {
+  position: relative;
+  font-family: Montserrat-Medium;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+}
+.hero .tags a:hover {
+  text-decoration: underline;
+}
+
+.sec1 {
+  position: absolute;
+  width: 1200px;
+  height: 320px;
+  background-color: red;
+  margin: 0 auto;
+  margin-left: 280px;
+  margin-top: 320px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-23\ at\ 9.41.52\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec2 {
+  position: absolute;
+  width: 1200px;
+  height: 620px;
+  background-color: red;
+  margin: 0 auto;
+  margin-left: 280px;
+  margin-top: 640px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-23\ at\ 9.56.30\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec3 {
+  position: absolute;
+  width: 1200px;
+  height: 420px;
+  background-color: red;
+  margin: 0 auto;
+  margin-left: 270px;
+  margin-top: 1300px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-23\ at\ 10.01.21\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec4 {
+  position: absolute;
+  width: 100%;
+  height: 840px;
+  background-color: red;
+  margin-top: 1800px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-23\ at\ 10.02.53\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec5 {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #2f466c;
+  top: 2640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sec5 .col1 {
+  position: relative;
+  height: 240px;
+  width: 160px;
+  left: 180px;
+  top: 30px;
+}
+.sec5 .col1 h4 {
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+}
+.sec5 .col1 p {
+  font-family: Montserrat-Light;
+  font-size: 14px;
+  color: #fff;
+}
+.sec5 .col2 {
+  position: relative;
+  height: 240px;
+  width: 160px;
+  left: 400px;
+  top: 30px;
+}
+.sec5 .col2 h4 {
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+}
+.sec5 .col2 p {
+  font-family: Montserrat-Light;
+  font-size: 14px;
+  color: #fff;
+}
+.sec5 .col3 {
+  position: relative;
+  height: 240px;
+  width: 160px;
+  left: 660px;
+  top: 30px;
+}
+.sec5 .col3 h4 {
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+}
+.sec5 .col3 p {
+  font-family: Montserrat-Light;
+  font-size: 14px;
+  color: #fff;
+}
+.sec5 .col4 {
+  position: relative;
+  height: 120px;
+  width: 260px;
+  left: 880px;
+  top: 30px;
+}
+.sec5 .col4 h4 {
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+}
+.sec5 .col4 p {
+  font-family: Montserrat-Light;
+  font-size: 14px;
+  color: #fff;
+}
+.sec5 .icon2 {
+  position: relative;
+  height: 140px;
+  width: 400px;
+  background-color: #000;
+  left: 540px;
+  top: 156px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-23\ at\ 10.45.38\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: #232347;
+  top: 2640px;
+}
+footer p {
+  position: absolute;
+  font-family: Montserrat-Light;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  top: 60px;
+  left: 800px;
+}
+
+.hero2 {
+  width: 100%;
+  height: 220px;
+  background-color: #000;
+  position: absolute;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 5.54.36\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jewelsec1 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: red;
+  margin-top: 300px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 6.07.44\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jewelsec2 {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background-color: red;
+  margin-top: 1240px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 5.55.53\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jewelsec3 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  margin-top: 2060px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 6.52.02\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.prefoot {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  margin-top: 2540px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 5.56.19\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero3 {
+  width: 100%;
+  height: 220px;
+  background-color: #000;
+  position: absolute;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.01.09\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clsec1 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: red;
+  margin-top: 300px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.01.28\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clsec2 {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background-color: red;
+  margin-top: 1240px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.01.57\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clsec3 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  margin-top: 2060px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.02.17\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.prefoot {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  margin-top: 2540px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 5.56.19\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero4 {
+  width: 100%;
+  height: 220px;
+  background-color: #000;
+  position: absolute;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.11.37\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.homesec1 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  margin-top: 300px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.11.54\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.homesec2 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: red;
+  margin-top: 740px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.12.16\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.homesec3 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: red;
+  margin-top: 1660px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.30.19\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero5 {
+  width: 100%;
+  height: 220px;
+  background-color: #000;
+  position: absolute;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.24.44\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wedsec1 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  background-color: red;
+  margin-top: 300px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.24.55\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wedsec2 {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background-color: red;
+  margin-top: 1240px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.25.08\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wedsec3 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  margin-top: 2060px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 7.25.28\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.prefoot {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  margin-top: 2540px;
+  background-image: url(../images/Screen\ Shot\ 2022-09-25\ at\ 5.56.19\ PM.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
