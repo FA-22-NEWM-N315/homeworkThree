@@ -2,7 +2,7 @@ import * as MODEL from "./model.js";
 
 function route() {
     let hashTag = window.location.hash;
-    let pageID = hashTag.replace("#", " ");
+    let pageID = hashTag.replace("#", "");
     console.log("hash " + pageID);
     
     if (pageID == "") {
