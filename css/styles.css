@@ -110,13 +110,14 @@ nav a {
 }
 .hero .hero-tag {
   position: relative;
-  height: 34px;
+  height: 40px;
   width: 480px;
   margin: 0 auto;
   top: 20px;
 }
 .hero .hero-tag h1 {
   font-family: Montserrat-Light;
+  font-size: 30px;
 }
 .hero .pic-wrapper {
   position: relative;
