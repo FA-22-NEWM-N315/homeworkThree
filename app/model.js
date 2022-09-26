@@ -1,5 +1,6 @@
 export function changePage(pageID) {
     // let page = pageID + "Content";
+    console.log("page " + pageID);
     $.get(`pages/${pageID}.html`, function(data) {
         console.log(data);
         $("#app").html(data); 
